@@ -1,0 +1,56 @@
+.head{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    max-width: 625px;
+    margin-right: 100px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+}
+.ham{
+    width: 30px;
+}
+.logo{
+    margin-left: 20px;
+    width: 100px;
+}
+.search-bar{
+    flex: 1;
+    height: 30px;
+    width: 0;
+}
+.search-button{
+    height: 36px;
+}
+.search-image{
+    width: 30px;
+    height: 30px;
+}
+.mic{
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+}
+.mic-image{
+    width: 30px;
+    height: 30px;
+}
+.upload,.apps,.notification{
+    width: 40px;
+}
